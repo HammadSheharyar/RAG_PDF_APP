@@ -52,7 +52,7 @@ def query_index(query_text, chunks, index, embed_model):
 
 # === FUNCTION 6: Generate with Groq + LLaMA3 ===
 def generate_with_groq(context, query):
-    API_KEY = "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"  # 🔐 Hardcoded Groq Key
+    API_KEY = "your_api_key_groq"  # 🔐 Hardcoded Groq Key
     url = "https://api.groq.com/openai/v1/chat/completions"
 
     headers = {
